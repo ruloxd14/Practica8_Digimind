@@ -3,34 +3,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary">
+    android:padding="4dp">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
-        android:id="@+id/textNombreRecordatorio"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="@string/M"
-        android:textSize="20sp"
-        android:gravity="center_horizontal"/>
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/textDiasRecordatorio"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="@string/F"
-        android:textSize="15sp"
-        android:gravity="center"/>
+        <TextView
+            android:id="@+id/textNombreRecordatorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Practice"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/textTiempoRecordatorio"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="@string/F"
-        android:textSize="5sp"
-        android:gravity="center"/>
+        <TextView
+            android:id="@+id/textDiasRecordatorio"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="Everyday"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textTiempoRecordatorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="17:00"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -23,6 +23,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/et_take"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/take"
@@ -48,6 +49,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkMonday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -63,6 +65,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkTuesday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -78,6 +81,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkWednesday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -93,6 +97,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkThursday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -108,6 +113,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkFriday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -123,6 +129,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkSaturday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -138,6 +145,7 @@
                 android:textSize="20sp" />
 
             <CheckBox
+                android:id="@+id/checkSunday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp" />
@@ -155,8 +163,21 @@
         android:textColor="@color/colorAccent"/>
 
     <Button
+        android:id="@+id/btn_set"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/set"
-        android:background="@color/Gray"/>
+        android:textColor="@color/Gray"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:paddingHorizontal="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="DONE"
+        />
 </LinearLayout>
